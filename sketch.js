@@ -10,16 +10,12 @@ function setup() {
 
   wall = createSprite(1200,200,thickness,height/2); 
   wall.shapeColor = color(80,80,80);
-
+ 
   
 }
 
 function draw() {
   background(255,255,255);  
-
- bullet.velocityX = -5;
-
-
 
   drawSprites();
 }
